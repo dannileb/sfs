@@ -7,9 +7,9 @@ function Layout() {
 
             <footer className="Footer">
                 <NavLink to="/photos" className="Footer-Link">Посмотреть фото</NavLink>
-                <NavLink to="/story" className="Footer-Link">Прочитать историю</NavLink>
-                <NavLink to="/cssFeature" className="Footer-Link">Узнать про фичу</NavLink>
-                <NavLink to="/git" className="Footer-Link">Скачать исходный код</NavLink>
+                <NavLink to="/" className="Footer-Link">Прочитать историю</NavLink>
+                <NavLink to="/" className="Footer-Link">Узнать про фичу</NavLink>
+                <NavLink to="/" className="Footer-Link">Скачать исходный код</NavLink>
             </footer>
         </>
     )

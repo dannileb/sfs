@@ -37,7 +37,7 @@
 }
 
 .Footer-Link:hover{
-    background: var(--ColorYellow);
+    background: var(--ColorWhite);
     color: var(--ColorBlackText);
 }
 

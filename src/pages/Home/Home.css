@@ -13,11 +13,27 @@
     justify-content: center;
 
     background: var(--ColorWhite);
+
+    animation: backgroundFadeIn 500ms ease-in;
 }
 
 .Home-Phrase{
     text-align: center;
     font-size: 64px;
+    font-weight: bold;
     transition: opacity 250ms ease-in;
+
+    animation: fadeIn 250ms ease-in;
+    animation-delay: 250ms;
 }
 
+@media screen and (max-width: 768px){
+    .Home-Phrase{
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 526px){
+    .Home-Phrase{
+        font-size: 32px;
+    }
+}

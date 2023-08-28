@@ -1,0 +1,74 @@
+.ImageCard{
+    cursor: pointer;
+    width: 60dvh;
+    height: 60dvh;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 16px;
+
+    transition: all 500ms ease-in;
+}
+.ImageCard_flipped{
+    position: relative;
+}
+.ImageCard-Image{
+    opacity: 1;
+    display: inline-block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    transform: rotateY(0deg);
+    transition: all 500ms ease-in;
+
+    box-shadow: 0 2px 4px var(--ColorYellow);
+}
+.ImageCard-Image_flipped{
+
+    opacity: 0.08;
+    filter: alpha(opacity=8);
+}
+.ImageCard-Capture{
+    opacity: 1;
+    width: max-content;
+    transition: opacity 500ms ease-in;
+}
+.ImageCard-Capture_flipped{
+    opacity: 0;
+
+}
+.ImageCard_Text{
+    position: absolute;
+    display: block;
+    opacity: 0;
+    padding: 16px 32px;
+    max-width: 100%;
+
+    font-size: 16px;
+    text-align: justify;
+
+}
+.ImageCard_Text_flipped{
+    display: block;
+    opacity: 1;
+
+    transition: opacity 500ms ease-in;
+    transition-delay: 500ms;
+}
+
+@media screen and (max-width: 450px){
+    .ImageCard_Text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 366px){
+    .ImageCard_Text{
+        font-size: 12px;
+    }
+}
