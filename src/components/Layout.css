@@ -1,0 +1,43 @@
+.Footer{
+    position: absolute;
+    bottom: 0;
+
+    padding: 16px 0;
+
+    width: 100dvw;
+
+    background: var(--ColorYellowBlur);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 -4px 8px var(--ColorYellowShadow);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: 16px;
+}
+.Footer-Link{
+    padding: 8px 16px;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    color: var(--ColorWhiteText);
+    text-decoration: none;
+
+    background: var(--ColorBlack);
+    border-radius: 4px;
+
+    transition: background-color 200ms ease-in;
+}
+.Footer-Link:visited{
+     color: var(--ColorWhiteText);
+}
+
+.Footer-Link:hover{
+    background: var(--ColorYellow);
+    color: var(--ColorBlackText);
+}
+

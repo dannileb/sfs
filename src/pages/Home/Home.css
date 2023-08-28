@@ -1,0 +1,23 @@
+@import url('../../fonts.css');
+@import url('../../styles.css');
+
+.Home{
+    height: 100dvh;
+    width: 100dvw;
+
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--ColorWhite);
+}
+
+.Home-Phrase{
+    text-align: center;
+    font-size: 64px;
+    transition: opacity 250ms ease-in;
+}
+

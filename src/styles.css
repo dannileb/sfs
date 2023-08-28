@@ -1,0 +1,22 @@
+:root{
+    --ColorWhite: #FFFFFF;
+    --ColorBlue: #005CFF;
+    --ColorBlack: #000000;
+    --ColorYellow: #ffcc00;
+    --ColorYellowBlur: #ffcc0080;
+    --ColorYellowShadow: #ffcc0050;
+    --ColorRed: #FF0000;
+
+    --ColorBlackText: rgba(0,0,0,1);
+    --ColorWhiteText: rgba(255, 255, 255, 0.91);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+

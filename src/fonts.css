@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('../public/fonts/YandexSansDisplay-Regular.eot');
+    src: local('Yandex Sans Display Regular'), local('YandexSansDisplay-Regular'),
+    url('../public/fonts/YandexSansDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/YandexSansDisplay-Regular.woff2') format('woff2'),
+    url('../public/fonts/YandexSansDisplay-Regular.woff') format('woff'),
+    url('../public/fonts/YandexSansDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('../public/fonts/YandexSansDisplay-Light.eot');
+    src: local('../public/fonts/Yandex Sans Display Light'), local('YandexSansDisplay-Light'),
+    url('../public/fonts/YandexSansDisplay-Light.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/YandexSansDisplay-Light.woff2') format('woff2'),
+    url('../public/fonts/YandexSansDisplay-Light.woff') format('woff'),
+    url('../public/fonts/YandexSansDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('../public/fonts/YandexSansDisplay-Bold.eot');
+    src: local('Yandex Sans Display Bold'), local('YandexSansDisplay-Bold'),
+    url('../public/fonts/YandexSansDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/YandexSansDisplay-Bold.woff2') format('woff2'),
+    url('../public/fonts/YandexSansDisplay-Bold.woff') format('woff'),
+    url('../public/fonts/YandexSansDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
