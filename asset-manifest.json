@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yandex-mentor-spa/static/css/main.522d36d7.css",
-    "main.js": "/yandex-mentor-spa/static/js/main.c83c6763.js",
+    "main.js": "/yandex-mentor-spa/static/js/main.d7586e78.js",
     "static/js/787.e2e9eba5.chunk.js": "/yandex-mentor-spa/static/js/787.e2e9eba5.chunk.js",
     "static/media/YandexSansDisplay-Light.eot": "/yandex-mentor-spa/static/media/YandexSansDisplay-Light.32998e0fcda410445095.eot",
     "static/media/YandexSansDisplay-Light.ttf": "/yandex-mentor-spa/static/media/YandexSansDisplay-Light.6c598accd937fea38926.ttf",
@@ -19,11 +19,11 @@
     "static/media/YandexSansDisplay-Regular.woff2": "/yandex-mentor-spa/static/media/YandexSansDisplay-Regular.29559e64b30c169b8b20.woff2",
     "index.html": "/yandex-mentor-spa/index.html",
     "main.522d36d7.css.map": "/yandex-mentor-spa/static/css/main.522d36d7.css.map",
-    "main.c83c6763.js.map": "/yandex-mentor-spa/static/js/main.c83c6763.js.map",
+    "main.d7586e78.js.map": "/yandex-mentor-spa/static/js/main.d7586e78.js.map",
     "787.e2e9eba5.chunk.js.map": "/yandex-mentor-spa/static/js/787.e2e9eba5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.522d36d7.css",
-    "static/js/main.c83c6763.js"
+    "static/js/main.d7586e78.js"
   ]
 }
