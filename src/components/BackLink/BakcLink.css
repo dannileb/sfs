@@ -1,0 +1,28 @@
+
+.BackLink::before{
+    margin-right: 4px;
+    content: "←";
+}
+.BackLink{
+    width: min-content;
+    padding: 8px 16px;
+    font-size: 16px;
+
+    //text-shadow: 0 0 8px var(--ColorYellow);
+    color: var(--ColorWhiteText);
+    text-decoration: none;
+
+    background: var(--ColorBlack);
+    border-radius: 4px;
+
+    transition: background-color 200ms ease-in;
+}
+
+.BackLink:visited {
+    color: var(--ColorWhiteText);
+}
+
+.BackLink:hover{
+    color: var(--ColorBlackText);
+    background: var(--ColorYellow);
+}

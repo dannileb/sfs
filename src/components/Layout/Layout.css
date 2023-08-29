@@ -32,12 +32,11 @@
 
     transition: background-color 200ms ease-in;
 }
-.Footer-Link:visited{
-     color: var(--ColorWhiteText);
+.active{
+     color: var(--ColorYellow);
 }
 
 .Footer-Link:hover{
     background: var(--ColorWhite);
     color: var(--ColorBlackText);
 }
-

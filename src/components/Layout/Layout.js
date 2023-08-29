@@ -9,7 +9,10 @@ function Layout() {
                 <NavLink to="/photos" className="Footer-Link">Посмотреть фото</NavLink>
                 <NavLink to="/" className="Footer-Link">Прочитать историю</NavLink>
                 <NavLink to="/" className="Footer-Link">Узнать про фичу</NavLink>
-                <NavLink to="/" className="Footer-Link">Скачать исходный код</NavLink>
+                <a href="https://github.com/dannileb/yandex-mentor-spa"
+                   target="_blank"
+                   className="Footer-Link"
+                   rel="noreferrer">Скачать исходный код</a>
             </footer>
         </>
     )

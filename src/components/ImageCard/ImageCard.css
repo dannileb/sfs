@@ -10,7 +10,7 @@
 
     gap: 16px;
 
-    transition: all 500ms ease-in;
+    transition: all 250ms ease-in;
 }
 .ImageCard_flipped{
     position: relative;
@@ -24,20 +24,20 @@
 
     border-radius: 10px;
 
-    transform: rotateY(0deg);
-    transition: all 500ms ease-in;
+    transition: all 250ms ease-in;
 
-    box-shadow: 0 2px 4px var(--ColorYellow);
+    box-shadow: 0 2px 0 var(--ColorYellow);
 }
 .ImageCard-Image_flipped{
 
     opacity: 0.08;
     filter: alpha(opacity=8);
+    box-shadow: 0 2px 0 var(--ColorBlack);
 }
 .ImageCard-Capture{
     opacity: 1;
     width: max-content;
-    transition: opacity 500ms ease-in;
+    transition: opacity 250ms ease-in;
 }
 .ImageCard-Capture_flipped{
     opacity: 0;
@@ -58,17 +58,29 @@
     display: block;
     opacity: 1;
 
-    transition: opacity 500ms ease-in;
-    transition-delay: 500ms;
+    transition: opacity 250ms ease-in;
+    transition-delay: 250ms;
 }
-
-@media screen and (max-width: 450px){
-    .ImageCard_Text{
+.ImageCard_Paragraph{
+    display: inline-block;
+    margin: 8px 0;
+}
+@media screen and (max-width: 450px) {
+    .ImageCard_Text {
         font-size: 14px;
+    }
+
+    .ImageCard_Paragraph {
+        margin: 6px 0;
+
     }
 }
 @media screen and (max-width: 366px){
     .ImageCard_Text{
         font-size: 12px;
+    }
+    .ImageCard_Paragraph{
+        margin: 4px 0;
+
     }
 }

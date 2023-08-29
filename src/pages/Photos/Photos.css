@@ -28,33 +28,6 @@
     background: var(--ColorWhite);
     animation:  backgroundFadeIn 500ms ease-in;
 }
-.Photos-BackLink::before{
-    margin-right: 4px;
-    content: "←";
-}
-.Photos-BackLink{
-    width: min-content;
-    padding: 8px 16px;
-    font-size: 16px;
-
-    text-shadow: 0 0 8px var(--ColorYellow);
-    color: var(--ColorYellow);
-    text-decoration: none;
-
-    background: var(--ColorBlack);
-    border-radius: 4px;
-
-    transition: background-color 200ms ease-in;
-}
-
-.Photos-BackLink:visited {
-    color: var(--ColorYellow);
-}
-
-.Photos-BackLink:hover{
-    color: var(--ColorBlackText);
-    background: var(--ColorYellow);
-}
 
 @media screen and (max-width: 726px){
     .Photos-Wrapper{

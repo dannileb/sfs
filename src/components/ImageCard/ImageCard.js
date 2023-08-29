@@ -13,8 +13,7 @@ function ImageCard({imageSrc, imageCapture, imageText}){
                     imageText.map(text=>{
                         return (
                             <>
-                                <span>{text}</span>
-                                <br/>
+                                <span className="ImageCard_Paragraph">{text}</span>
                                 <br/>
                             </>
 
