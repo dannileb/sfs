@@ -1,12 +1,13 @@
 .ImageCard{
     cursor: pointer;
-    width: 60dvh;
-    height: 60dvh;
     border-radius: 10px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    width: 60dvh;
+    height: 60dvh;
 
     gap: 16px;
 
@@ -16,6 +17,7 @@
     position: relative;
 }
 .ImageCard-Image{
+    z-index: 1;
     opacity: 1;
     display: inline-block;
     object-fit: cover;
@@ -29,7 +31,7 @@
     box-shadow: 0 2px 0 var(--ColorYellow);
 }
 .ImageCard-Image_flipped{
-
+    z-index: 0;
     opacity: 0.08;
     filter: alpha(opacity=8);
     box-shadow: 0 2px 0 var(--ColorBlack);
@@ -44,32 +46,41 @@
 
 }
 .ImageCard_Text{
+    z-index: 0;
+    opacity: 0;
     position: absolute;
     display: block;
-    opacity: 0;
+
     padding: 16px 32px;
     max-width: 100%;
 
     font-size: 16px;
     text-align: justify;
 
+
 }
 .ImageCard_Text_flipped{
+    z-index: 1;
+    overflow: hidden;
+
     display: block;
     opacity: 1;
 
+    max-height: 60dvh;
+
     transition: opacity 250ms ease-in;
     transition-delay: 250ms;
+
 }
 .ImageCard_Paragraph{
     display: inline-block;
     margin: 8px 0;
 }
+
 @media screen and (max-width: 450px) {
     .ImageCard_Text {
         font-size: 14px;
     }
-
     .ImageCard_Paragraph {
         margin: 6px 0;
 

@@ -1,4 +1,5 @@
 .Footer{
+    z-index: 9999;
     position: absolute;
     bottom: 0;
 
