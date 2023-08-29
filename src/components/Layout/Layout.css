@@ -3,7 +3,7 @@
     position: absolute;
     bottom: 0;
 
-    padding: 16px 0;
+    padding: 16px 8px;
 
     width: 100dvw;
 
@@ -40,4 +40,14 @@
 .Footer-Link:hover{
     background: var(--ColorWhite);
     color: var(--ColorBlackText);
+}
+
+@media (max-width: 390px) or (max-height: 720px){
+    .Footer{
+        padding: 8px 4px;
+    }
+    .Footer-Link{
+        padding: 4px 8px;
+        font-size: 12px;
+    }
 }

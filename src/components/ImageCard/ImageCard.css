@@ -86,12 +86,11 @@
 
     }
 }
-@media screen and (max-width: 366px){
+@media (max-width: 390px) or (max-height: 720px){
     .ImageCard_Text{
         font-size: 12px;
     }
     .ImageCard_Paragraph{
         margin: 4px 0;
-
     }
 }
