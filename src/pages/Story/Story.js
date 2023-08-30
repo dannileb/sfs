@@ -2,7 +2,9 @@ import './Story.css';
 import BackLink from "../../components/BackLink/BackLink";
 import StoryBlock from "../../components/StoryBlock/StoryBlock";
 import firstStoryImg from "../../images/firstStoryImg.jpg";
+import secondStoryImg from "../../images/secondStoryImg.jpg";
 import thirdStoryImg from "../../images/thirdStoryImg.jpg";
+import fourthStoryImg from "../../images/fourthStoryImg.jpg";
 
 const firstBlockText = [
     'В детстве я любил спортивные игры, занимался футболом и борьбой, смотрел соревнования по телевизору.' +
@@ -41,7 +43,7 @@ const fourthBlockText = [
 const finalBlockText = [
     'Однако я решил выбрать именно программирование. И теперь я развиваюсь в области веб-разработки! ' +
     'Для меня веб-разработка - это возможность совместить творческое нутро и математический склад ума, ' +
-    'взаимодействовать как с созданием графического содержимого и интерфесов, так и с разраработкой алгоритмов и решением задач!'
+    'взаимодействовать как с созданием графического содержимого и интерфесов, так и с разработкой алгоритмов и решением задач!'
 ]
 
 function Story(){
@@ -59,7 +61,7 @@ function Story(){
                 />
                 <StoryBlock
                     number={2}
-                    imageSrc={firstStoryImg}
+                    imageSrc={secondStoryImg}
                     storyText={secondBlockText}
                     backgroundColor="var(--ColorWhite)"
                     color="var(--ColorBlackText)"
@@ -73,7 +75,7 @@ function Story(){
                 />
                 <StoryBlock
                     number={4}
-                    imageSrc={firstStoryImg}
+                    imageSrc={fourthStoryImg}
                     storyText={fourthBlockText}
                     backgroundColor="var(--ColorBlack)"
                     color="var(--ColorYellow)"
