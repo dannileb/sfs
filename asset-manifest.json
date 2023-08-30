@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yandex-mentor-spa/static/css/main.58c252f7.css",
-    "main.js": "/yandex-mentor-spa/static/js/main.7e254958.js",
+    "main.css": "/yandex-mentor-spa/static/css/main.99e59a19.css",
+    "main.js": "/yandex-mentor-spa/static/js/main.ce446eae.js",
     "static/js/787.e2e9eba5.chunk.js": "/yandex-mentor-spa/static/js/787.e2e9eba5.chunk.js",
     "static/media/firstStoryImg.jpg": "/yandex-mentor-spa/static/media/firstStoryImg.42aab544daa4896810ae.jpg",
     "static/media/thirdStoryImg.jpg": "/yandex-mentor-spa/static/media/thirdStoryImg.57315f263ede55181020.jpg",
@@ -23,12 +23,12 @@
     "static/media/YandexSansDisplay-Bold.woff2": "/yandex-mentor-spa/static/media/YandexSansDisplay-Bold.f502192c0c4f8b5ba5cf.woff2",
     "static/media/YandexSansDisplay-Regular.woff2": "/yandex-mentor-spa/static/media/YandexSansDisplay-Regular.29559e64b30c169b8b20.woff2",
     "index.html": "/yandex-mentor-spa/index.html",
-    "main.58c252f7.css.map": "/yandex-mentor-spa/static/css/main.58c252f7.css.map",
-    "main.7e254958.js.map": "/yandex-mentor-spa/static/js/main.7e254958.js.map",
+    "main.99e59a19.css.map": "/yandex-mentor-spa/static/css/main.99e59a19.css.map",
+    "main.ce446eae.js.map": "/yandex-mentor-spa/static/js/main.ce446eae.js.map",
     "787.e2e9eba5.chunk.js.map": "/yandex-mentor-spa/static/js/787.e2e9eba5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58c252f7.css",
-    "static/js/main.7e254958.js"
+    "static/css/main.99e59a19.css",
+    "static/js/main.ce446eae.js"
   ]
 }
