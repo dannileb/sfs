@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/yandex-mentor-spa/static/css/main.df5cc916.css",
-    "main.js": "/yandex-mentor-spa/static/js/main.3550eefe.js",
+    "main.css": "/yandex-mentor-spa/static/css/main.83c05b6c.css",
+    "main.js": "/yandex-mentor-spa/static/js/main.570121bd.js",
     "static/js/787.e2e9eba5.chunk.js": "/yandex-mentor-spa/static/js/787.e2e9eba5.chunk.js",
     "static/media/firstStoryImg.jpg": "/yandex-mentor-spa/static/media/firstStoryImg.42aab544daa4896810ae.jpg",
     "static/media/thirdStoryImg.jpg": "/yandex-mentor-spa/static/media/thirdStoryImg.57315f263ede55181020.jpg",
+    "static/media/fourthStoryImg.jpg": "/yandex-mentor-spa/static/media/fourthStoryImg.c0e3eb55d83cdc9ef7ab.jpg",
     "static/media/YandexSansDisplay-Light.eot": "/yandex-mentor-spa/static/media/YandexSansDisplay-Light.32998e0fcda410445095.eot",
     "static/media/YandexSansDisplay-Light.ttf": "/yandex-mentor-spa/static/media/YandexSansDisplay-Light.6c598accd937fea38926.ttf",
     "static/media/YandexSansDisplay-Bold.eot": "/yandex-mentor-spa/static/media/YandexSansDisplay-Bold.8e0fd19c18af51e12674.eot",
     "static/media/YandexSansDisplay-Bold.ttf": "/yandex-mentor-spa/static/media/YandexSansDisplay-Bold.54cceaa0fa5c4fa6e5c1.ttf",
     "static/media/YandexSansDisplay-Regular.eot": "/yandex-mentor-spa/static/media/YandexSansDisplay-Regular.d3adf3571f3a8ab69082.eot",
     "static/media/YandexSansDisplay-Regular.ttf": "/yandex-mentor-spa/static/media/YandexSansDisplay-Regular.f7b0cd2fb662aa10f1b2.ttf",
+    "static/media/secondStoryImg.jpg": "/yandex-mentor-spa/static/media/secondStoryImg.d195b00664b6b1e12d74.jpg",
     "static/media/currentSelfie.jpg": "/yandex-mentor-spa/static/media/currentSelfie.6870db48669eaa455713.jpg",
     "static/media/highSchool.jpg": "/yandex-mentor-spa/static/media/highSchool.69645345621e047be591.jpg",
     "static/media/YandexSansDisplay-Light.woff": "/yandex-mentor-spa/static/media/YandexSansDisplay-Light.6fdb99c981fcc26cb325.woff",
@@ -20,12 +22,12 @@
     "static/media/YandexSansDisplay-Bold.woff2": "/yandex-mentor-spa/static/media/YandexSansDisplay-Bold.f502192c0c4f8b5ba5cf.woff2",
     "static/media/YandexSansDisplay-Regular.woff2": "/yandex-mentor-spa/static/media/YandexSansDisplay-Regular.29559e64b30c169b8b20.woff2",
     "index.html": "/yandex-mentor-spa/index.html",
-    "main.df5cc916.css.map": "/yandex-mentor-spa/static/css/main.df5cc916.css.map",
-    "main.3550eefe.js.map": "/yandex-mentor-spa/static/js/main.3550eefe.js.map",
+    "main.83c05b6c.css.map": "/yandex-mentor-spa/static/css/main.83c05b6c.css.map",
+    "main.570121bd.js.map": "/yandex-mentor-spa/static/js/main.570121bd.js.map",
     "787.e2e9eba5.chunk.js.map": "/yandex-mentor-spa/static/js/787.e2e9eba5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df5cc916.css",
-    "static/js/main.3550eefe.js"
+    "static/css/main.83c05b6c.css",
+    "static/js/main.570121bd.js"
   ]
 }
