@@ -78,9 +78,6 @@
 .CssFeature-Link, .CssFeature-Link:visited{
     color: var(--ColorBlack);
 }
-.Paragraph:not(:first-child){
-    margin: 8px 0;
-}
 
 @media (max-width: 1024px) {
     .CssFeature-VideoWrapper{
@@ -94,8 +91,5 @@
     }
     .CssFeature-Image{
         width: 100%;
-    }
-    .Paragraph{
-        font-size: 20px;
     }
 }

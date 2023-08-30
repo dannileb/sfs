@@ -3,3 +3,13 @@
     font-size: 24px;
 
 }
+
+.Paragraph:not(:first-child){
+    margin: 8px 0;
+}
+
+@media (max-width: 1024px) {
+    .Paragraph{
+        font-size: 20px;
+    }
+}
