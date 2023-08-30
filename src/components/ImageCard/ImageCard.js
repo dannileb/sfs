@@ -10,13 +10,11 @@ function ImageCard({imageSrc, imageCapture, imageText}){
             ?
             /*Text displays*/
             <div className="ImageCard ImageCard_flipped" onClick={()=>setFlipped(!flipped)}>
-                <p className="ImageCard_Text ImageCard_Text_flipped">
+                <p className="ImageCard-Text ImageCard-Text_flipped">
                         {
-                            imageText.map(text=>{
-                                return (
-                                    <>
-                                        <span className="ImageCard_Paragraph">{text}</span>
-                                    </>
+                            imageText.map((text, index)=>{
+                                return(
+                                    <span key={index} className="ImageCard-Paragraph">{text}</span>
                                 )
                             })
                         }
@@ -29,7 +27,7 @@ function ImageCard({imageSrc, imageCapture, imageText}){
             :
             /*Image displays*/
             <div className="ImageCard" onClick={()=>setFlipped(!flipped)}>
-                <p className="ImageCard_Text">{imageText[0]}</p>
+                <p className="ImageCard-Text">{imageText[0]}</p>
                 <img src={imageSrc} className="ImageCard-Image" alt="highSchool"/>
 
                 <p className="ImageCard-Capture">{imageCapture}</p>

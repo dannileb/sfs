@@ -1,0 +1,101 @@
+.Story-Block{
+    height: 100dvh;
+    width: 100dvw;
+
+    padding: 32px;
+
+    scroll-snap-align: center;
+    scroll-padding: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    gap: 32px;
+}
+.Story-Block:last-child{
+    align-content: center;
+}
+.Story-Block:last-child .Story-Image{
+    width: 80dvw;
+    height: 20dvw;
+}
+.Story-Image{
+    object-fit: cover;
+    width: 25dvw;
+    height: 25dvw;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 0 currentColor;
+}
+.Story-Text{
+    display: block;
+    font-size: 24px;
+
+    width: 50%;;
+
+    text-align: justify;
+
+}
+.Story-Paragraph{
+    display: inline-block;
+    margin: 8px 0;
+}
+@media screen and (max-width: 1240px){
+    .Story-Image{
+        width: 30dvw;
+        height: 30dvw;
+    }
+    .Story-Text{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 1014px){
+    .Story-Image{
+        width: 35dvw;
+        height: 35dvw;
+    }
+    .Story-Text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 896px){
+    .Story-Image{
+        width: 40dvw;
+        height: 40dvw;
+    }
+    .Story-Text{
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) or (orientation: portrait){
+    .Story-Block{
+        align-items: start;
+        align-content: center;
+        gap: 16px;
+    }
+
+    .Story-Block:last-child .Story-Image{
+        width: 60dvw;
+        height: 60dvw;
+    }
+    .Story-Image{
+        width: 60dvw;
+        height: 60dvw;
+    }
+    .Story-Text{
+        width: max-content;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 320px){
+    .Story-Image{
+        width: 60dvw;
+        height: 60dvw;
+    }
+    .Story-Text{
+        font-size: 14px;
+    }
+}

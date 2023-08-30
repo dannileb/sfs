@@ -2,7 +2,7 @@
 @import url('../../styles.css');
 
 .Photos{
-    margin-top: 32px;
+    margin-top: 64px;
 
     display: flex;
     flex-direction: row;
@@ -19,19 +19,24 @@
     height: 100dvh;
     width: 100dvw;
 
-    padding: 32px 32px 128px 32px;
+    padding: 32px;
 
     display: flex;
     flex-direction: column;
     gap: 16px;
 
     background: var(--ColorWhite);
-    animation:  backgroundFadeIn 500ms ease-in;
-}
+    animation:  backgroundFadeInToWhite 500ms ease-in;
 
-@media screen and (max-width: 726px){
-    .Photos-Wrapper{
-        padding: 32px 32px 176px 32px;
+    /*Firefox scrollbar */
+    scrollbar-width: none;
+}
+.Photos-Wrapper::-webkit-scrollbar {
+    width: 0;
+}
+@media screen and (max-width: 967px){
+    .Photos {
+        margin-top: 0;
     }
 }
 @media screen and (max-width: 576px){

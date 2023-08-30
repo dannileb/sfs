@@ -1,15 +1,14 @@
 .Footer{
     z-index: 9999;
-    position: absolute;
+    position: sticky;
     bottom: 0;
 
     padding: 16px 8px;
 
     width: 100dvw;
 
-    background: var(--ColorYellowBlur);
-    backdrop-filter: blur(50px);
-    box-shadow: 0 -4px 8px var(--ColorYellowShadow);
+    background: var(--ColorYellow);
+    box-shadow: 0 -2px 12px var(--ColorYellowShadow);
 
     display: flex;
     flex-direction: row;
@@ -41,13 +40,11 @@
     background: var(--ColorWhite);
     color: var(--ColorBlackText);
 }
-
 @media (max-width: 390px) or (max-height: 720px){
     .Footer{
-        padding: 8px 4px;
+        padding: 16px 8px 8px 4px;
     }
     .Footer-Link{
-        padding: 4px 8px;
-        font-size: 12px;
+        padding: 8px;
     }
 }

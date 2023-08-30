@@ -5,6 +5,7 @@ import {Route, Routes} from 'react-router-dom';
 import Home from "./pages/Home/Home";
 import Layout from "./components/Layout/Layout";
 import Photos from "./pages/Photos/Photos";
+import Story from "./pages/Story/Story";
 
 class App extends React.Component {
     state = {
@@ -18,7 +19,8 @@ class App extends React.Component {
                     <Routes>
                         <Route path='/' element={<Layout/>}>
                             <Route index element={<Home/>} />
-                            <Route path="/photos" element={<Photos/>} />
+                            <Route path="photos" element={<Photos/>} />
+                            <Route path="story" element={<Story/>} />
                         </Route>
                     </Routes>
                 </main>

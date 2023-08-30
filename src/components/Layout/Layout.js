@@ -7,7 +7,7 @@ function Layout() {
 
             <footer className="Footer">
                 <NavLink to="/photos" className="Footer-Link">Посмотреть фото</NavLink>
-                <NavLink to="/" className="Footer-Link">Прочитать историю</NavLink>
+                <NavLink to="/story" className="Footer-Link">Прочитать историю</NavLink>
                 <NavLink to="/" className="Footer-Link">Узнать про фичу</NavLink>
                 <a href="https://github.com/dannileb/yandex-mentor-spa"
                    target="_blank"

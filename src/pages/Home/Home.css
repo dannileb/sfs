@@ -14,7 +14,7 @@
 
     background: var(--ColorWhite);
 
-    animation: backgroundFadeIn 500ms ease-in;
+    animation: backgroundFadeInToWhite 500ms ease-in;
 }
 
 .Home-Phrase{
