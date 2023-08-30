@@ -23,6 +23,7 @@ class App extends React.Component {
                             <Route path="photos" element={<Photos/>} />
                             <Route path="story" element={<Story/>} />
                             <Route path="css-feature" element={<CssFeature/>} />
+                            <Route path="*" element={<Home/>}/>
                         </Route>
                     </Routes>
                 </main>

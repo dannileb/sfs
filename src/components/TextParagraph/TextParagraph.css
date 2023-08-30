@@ -1,15 +1,15 @@
-.Paragraph{
+.TextParagraph{
     display: inline-block;
     font-size: 24px;
 
 }
 
-.Paragraph:not(:first-child){
+.TextParagraph:not(:first-child){
     margin: 8px 0;
 }
 
 @media (max-width: 1024px) {
-    .Paragraph{
+    .TextParagraph{
         font-size: 20px;
     }
 }

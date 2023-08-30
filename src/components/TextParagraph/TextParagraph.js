@@ -3,7 +3,7 @@ import React from "react";
 
 function TextParagraph({text}){
     return(
-        <span className="Paragraph" dangerouslySetInnerHTML={{ __html: text }}>
+        <span className="TextParagraph" dangerouslySetInnerHTML={{ __html: text }}>
         </span>
     )
 }
