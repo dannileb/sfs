@@ -1,0 +1,101 @@
+.CssFeature-Wrapper{
+    position: relative;
+    padding: 32px;
+
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    background: var(--ColorBlack);
+
+    animation:  backgroundFadeInToBlack 500ms ease-in;
+
+    /*Firefox scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--ColorYellowShadow) transparent;
+}
+.CssFeature{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.CssFeature-Wrapper::-webkit-scrollbar {
+    margin: 2px;
+    width: 8px;
+}
+.CssFeature-Wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--ColorYellowShadow);
+    border-radius: 4px;
+}
+.CssFeature-Wrapper::-webkit-scrollbar-track  {
+    background: var(--ColorBlack);
+}
+.CssFeature-VideoWrapper{
+    width: 100%;
+    padding: 32px;
+    margin: 32px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 16px;
+
+    color: var(--ColorWhiteText);
+    background: black;
+}
+.CssFeature-Video{
+    width: 64vw;
+    height: 36vw;
+}
+.CssFeature-Description{
+    width: 100dvw;
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+    background: var(--ColorBlue);
+}
+.CssFeature-Image{
+    width: 40vw;
+    height: auto;
+
+    border-radius: 10px;
+}
+.CssFeature-Text{
+    width: 60vw;
+    text-align: justify;
+    color: var(--ColorWhiteText);
+}
+
+.CssFeature-Link, .CssFeature-Link:visited{
+    color: var(--ColorBlack);
+}
+.Paragraph:not(:first-child){
+    margin: 8px 0;
+}
+
+@media (max-width: 1024px) {
+    .CssFeature-VideoWrapper{
+        margin-top: 64px;
+    }
+    .CssFeature-Description{
+        padding: 32px;
+    }
+    .CssFeature-Text{
+        width: fit-content;
+    }
+    .CssFeature-Image{
+        width: 100%;
+    }
+    .Paragraph{
+        font-size: 20px;
+    }
+}

@@ -2,6 +2,7 @@
     --ColorWhite: #FFFFFF;
     --ColorBlue: #005CFF;
     --ColorBlack: #000000;
+
     --ColorYellow: #ffcc00;
     --ColorYellowBlur: #ffcc0080;
     --ColorYellowShadow: #ffcc0050;
@@ -9,6 +10,8 @@
 
     --ColorBlackText: rgba(0,0,0,1);
     --ColorWhiteText: rgba(255, 255, 255, 0.91);
+
+    --ColorCodeBackground: #cccccc;
 }
 html{
     /*Firefox scrollbar */
@@ -24,6 +27,23 @@ html::-webkit-scrollbar{
 }
 a:visited{
     text-decoration: none;
+}
+code {
+     padding: 2px 4px;
+     display: inline-block;
+
+     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+     monospace;
+
+     border-radius: 2px;
+
+     background: var(--ColorCodeBackground);
+    color: var(--ColorBlackText);
+ }
+@media (max-width: 1024px) {
+    code{
+        margin: 2px;
+    }
 }
 @keyframes fadeOut {
     from {

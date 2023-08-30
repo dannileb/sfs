@@ -6,6 +6,7 @@ import Home from "./pages/Home/Home";
 import Layout from "./components/Layout/Layout";
 import Photos from "./pages/Photos/Photos";
 import Story from "./pages/Story/Story";
+import CssFeature from "./pages/CssFeature/CssFeature";
 
 class App extends React.Component {
     state = {
@@ -21,6 +22,7 @@ class App extends React.Component {
                             <Route index element={<Home/>} />
                             <Route path="photos" element={<Photos/>} />
                             <Route path="story" element={<Story/>} />
+                            <Route path="css-feature" element={<CssFeature/>} />
                         </Route>
                     </Routes>
                 </main>
