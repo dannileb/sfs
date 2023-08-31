@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/yandex-mentor-spa/static/css/main.99e59a19.css",
-    "main.js": "/yandex-mentor-spa/static/js/main.f1461ea7.js",
+    "main.js": "/yandex-mentor-spa/static/js/main.311533a8.js",
     "static/js/787.e2e9eba5.chunk.js": "/yandex-mentor-spa/static/js/787.e2e9eba5.chunk.js",
-    "static/media/firstStoryImg.jpg": "/yandex-mentor-spa/static/media/firstStoryImg.42aab544daa4896810ae.jpg",
+    "static/media/finalStoryImg.jpg": "/yandex-mentor-spa/static/media/finalStoryImg.42aab544daa4896810ae.jpg",
     "static/media/thirdStoryImg.jpg": "/yandex-mentor-spa/static/media/thirdStoryImg.57315f263ede55181020.jpg",
     "static/media/fourthStoryImg.jpg": "/yandex-mentor-spa/static/media/fourthStoryImg.c0e3eb55d83cdc9ef7ab.jpg",
     "static/media/YandexSansDisplay-Light.eot": "/yandex-mentor-spa/static/media/YandexSansDisplay-Light.32998e0fcda410445095.eot",
@@ -15,6 +15,7 @@
     "static/media/secondStoryImg.jpg": "/yandex-mentor-spa/static/media/secondStoryImg.d195b00664b6b1e12d74.jpg",
     "static/media/currentSelfie.jpg": "/yandex-mentor-spa/static/media/currentSelfie.6870db48669eaa455713.jpg",
     "static/media/highSchool.jpg": "/yandex-mentor-spa/static/media/highSchool.69645345621e047be591.jpg",
+    "static/media/firstStoryImg.jpg": "/yandex-mentor-spa/static/media/firstStoryImg.025411805596608b8b06.jpg",
     "static/media/YandexSansDisplay-Light.woff": "/yandex-mentor-spa/static/media/YandexSansDisplay-Light.6fdb99c981fcc26cb325.woff",
     "static/media/YandexSansDisplay-Bold.woff": "/yandex-mentor-spa/static/media/YandexSansDisplay-Bold.138d9a1c55f27a3b5486.woff",
     "static/media/YandexSansDisplay-Regular.woff": "/yandex-mentor-spa/static/media/YandexSansDisplay-Regular.24a20857e5c6d4c4cfa0.woff",
@@ -24,11 +25,11 @@
     "static/media/YandexSansDisplay-Regular.woff2": "/yandex-mentor-spa/static/media/YandexSansDisplay-Regular.29559e64b30c169b8b20.woff2",
     "index.html": "/yandex-mentor-spa/index.html",
     "main.99e59a19.css.map": "/yandex-mentor-spa/static/css/main.99e59a19.css.map",
-    "main.f1461ea7.js.map": "/yandex-mentor-spa/static/js/main.f1461ea7.js.map",
+    "main.311533a8.js.map": "/yandex-mentor-spa/static/js/main.311533a8.js.map",
     "787.e2e9eba5.chunk.js.map": "/yandex-mentor-spa/static/js/787.e2e9eba5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99e59a19.css",
-    "static/js/main.f1461ea7.js"
+    "static/js/main.311533a8.js"
   ]
 }
