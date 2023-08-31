@@ -5,6 +5,7 @@ import firstStoryImg from "../../images/firstStoryImg.jpg";
 import secondStoryImg from "../../images/secondStoryImg.jpg";
 import thirdStoryImg from "../../images/thirdStoryImg.jpg";
 import fourthStoryImg from "../../images/fourthStoryImg.jpg";
+import finalStoryImg from "../../images/finalStoryImg.jpg";
 
 const firstBlockText = [
     'В детстве я любил спортивные игры, занимался футболом и борьбой, смотрел соревнования по телевизору.' +
@@ -82,7 +83,7 @@ function Story(){
                 />
                 <StoryBlock
                     number={5}
-                    imageSrc={firstStoryImg}
+                    imageSrc={finalStoryImg}
                     storyText={finalBlockText}
                     backgroundColor="var(--ColorYellow)"
                     color="var(--ColorBlackText)"
